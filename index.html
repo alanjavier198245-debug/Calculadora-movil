@@ -119,48 +119,29 @@ button:active{
         Activar / Desactivar Científica
     </button>
 
-    <div class="cientifica" id="cientifica">
-        <button onclick="agregar('Math.sin(')">sin</button>
-        <button onclick="agregar('Math.cos(')">cos</button>
-        <button onclick="agregar('Math.tan(')">tan</button>
-        <button onclick="agregar('Math.sqrt(')">√</button>
+   <div class="botones">
+    <button onclick="limpiar()">C</button>
+    <button onclick="borrar()">⌫</button>
+    <button onclick="agregar('/')">÷</button>
+    <button class="operador" onclick="agregar('*')">×</button>
 
-        <button onclick="agregar('Math.log10(')">log</button>
-        <button onclick="agregar('Math.log(')">ln</button>
-        <button onclick="agregar('Math.PI')">π</button>
-        <button onclick="agregar('Math.E')">e</button>
+    <button onclick="agregar('7')">7</button>
+    <button onclick="agregar('8')">8</button>
+    <button onclick="agregar('9')">9</button>
+    <button class="operador" onclick="agregar('-')">−</button>
 
-        <button onclick="agregar('**')">xʸ</button>
-        <button onclick="agregar('(')">(</button>
-        <button onclick="agregar(')')">)</button>
-        <button onclick="agregar('%')">%</button>
-    </div>
+    <button onclick="agregar('4')">4</button>
+    <button onclick="agregar('5')">5</button>
+    <button onclick="agregar('6')">6</button>
+    <button class="operador" onclick="agregar('+')">+</button>
 
-    <div class="botones">
-        <button onclick="limpiar()">C</button>
-        <button onclick="borrar()">⌫</button>
-        <button onclick="agregar('/')">÷</button>
-        <button class="operador" onclick="agregar('*')">×</button>
+    <button onclick="agregar('1')">1</button>
+    <button onclick="agregar('2')">2</button>
+    <button onclick="agregar('3')">3</button>
+    <button class="igual" onclick="calcular()">=</button>
 
-        <button onclick="agregar('7')">7</button>
-        <button onclick="agregar('8')">8</button>
-        <button onclick="agregar('9')">9</button>
-        <button class="operador" onclick="agregar('-')">−</button>
-
-        <button onclick="agregar('4')">4</button>
-        <button onclick="agregar('5')">5</button>
-        <button onclick="agregar('6')">6</button>
-        <button class="operador" onclick="agregar('+')">+</button>
-
-        <button onclick="agregar('1')">1</button>
-        <button onclick="agregar('2')">2</button>
-        <button onclick="agregar('3')">3</button>
-        <button class="igual" onclick="calcular()">=</button>
-
-        <button onclick="agregar('0')">0</button>
-        <button onclick="agregar('.')">.</button>
-    </div>
-
+    <button onclick="agregar('0')">0</button>
+    <button onclick="agregar('.')">.</button>
 </div>
 
 <script>
